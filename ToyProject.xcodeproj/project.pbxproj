@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B741FD21A2763C00F6B8DD /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 60B741FC21A2763C00F6B8DD /* MNISTClassifier.mlmodel */; };
+		60B741FF21A2906E00F6B8DD /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B741FE21A2906E00F6B8DD /* TempViewController.swift */; };
+		60B7420121A2A35700F6B8DD /* Temp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7420021A2A35700F6B8DD /* Temp2ViewController.swift */; };
 		60F72F6F21A2426A0097276F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F72F6E21A2426A0097276F /* AppDelegate.swift */; };
 		60F72F7121A2426A0097276F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F72F7021A2426A0097276F /* ViewController.swift */; };
 		60F72F7421A2426A0097276F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F72F7221A2426A0097276F /* Main.storyboard */; };
 		60F72F7621A2426A0097276F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F72F7521A2426A0097276F /* Assets.xcassets */; };
 		60F72F7921A2426A0097276F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F72F7721A2426A0097276F /* LaunchScreen.storyboard */; };
+		60F72F8121A242E00097276F /* CIvideofilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F72F8021A242E00097276F /* CIvideofilter.swift */; };
+		60F72F8321A2529A0097276F /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F72F8221A2529A0097276F /* CaptureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60B741FC21A2763C00F6B8DD /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		60B741FE21A2906E00F6B8DD /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		60B7420021A2A35700F6B8DD /* Temp2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp2ViewController.swift; sourceTree = "<group>"; };
 		60F72F6B21A2426A0097276F /* ToyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F72F6E21A2426A0097276F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F72F7021A2426A0097276F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		60F72F7521A2426A0097276F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60F72F7821A2426A0097276F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60F72F7A21A2426A0097276F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F72F8021A242E00097276F /* CIvideofilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIvideofilter.swift; sourceTree = "<group>"; };
+		60F72F8221A2529A0097276F /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				60F72F6E21A2426A0097276F /* AppDelegate.swift */,
 				60F72F7021A2426A0097276F /* ViewController.swift */,
+				60F72F8221A2529A0097276F /* CaptureViewController.swift */,
+				60B741FE21A2906E00F6B8DD /* TempViewController.swift */,
+				60F72F8021A242E00097276F /* CIvideofilter.swift */,
 				60F72F7221A2426A0097276F /* Main.storyboard */,
+				60B7420021A2A35700F6B8DD /* Temp2ViewController.swift */,
+				60B741FC21A2763C00F6B8DD /* MNISTClassifier.mlmodel */,
 				60F72F7521A2426A0097276F /* Assets.xcassets */,
 				60F72F7721A2426A0097276F /* LaunchScreen.storyboard */,
 				60F72F7A21A2426A0097276F /* Info.plist */,
@@ -137,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F72F7121A2426A0097276F /* ViewController.swift in Sources */,
+				60F72F8321A2529A0097276F /* CaptureViewController.swift in Sources */,
+				60B741FF21A2906E00F6B8DD /* TempViewController.swift in Sources */,
+				60F72F8121A242E00097276F /* CIvideofilter.swift in Sources */,
 				60F72F6F21A2426A0097276F /* AppDelegate.swift in Sources */,
+				60B7420121A2A35700F6B8DD /* Temp2ViewController.swift in Sources */,
+				60B741FD21A2763C00F6B8DD /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C5R9X9Z2N;
 				INFOPLIST_FILE = ToyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taxk.ToyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C5R9X9Z2N;
 				INFOPLIST_FILE = ToyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taxk.ToyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
